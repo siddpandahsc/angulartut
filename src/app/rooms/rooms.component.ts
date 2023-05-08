@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Room } from './rooms';
 
 @Component({
   selector: 'hinv-rooms',
@@ -10,6 +11,12 @@ export class RoomsComponent {
   numberOfRooms = 10;
 
   hideRooms = false;
+
+  rooms : Room = {
+    availableRooms : 0,
+    bookedRooms : 5,
+    totalRooms:20
+  }
 
   toggle() {
     this.hideRooms = !this.hideRooms;
