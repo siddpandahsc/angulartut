@@ -30,6 +30,7 @@ export class RoomsComponent {
       photos: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime:new Date('13-Nov-2021'),
+      rating:4.5
     },
     {
       roomNumber:2,
@@ -39,6 +40,7 @@ export class RoomsComponent {
       photos: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
       checkinTime: new Date('13-Nov-2021'),
       checkoutTime:new Date('18-Nov-2021'),
+      rating:3.4
     },
     {
       roomNumber:3,
@@ -48,6 +50,7 @@ export class RoomsComponent {
       photos: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
       checkinTime: new Date('13-Nov-2021'),
       checkoutTime:new Date('18-Nov-2021'),
+      rating:2.6222
     },
   ]
 
